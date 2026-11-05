@@ -27,8 +27,4 @@ La mayoría de mi trabajo está en repositorios privados de equipos y clientes, 
 
 - [**mati-landing**](https://github.com/DieGOD24/mati-landing): landing de Mati, una matera inteligente con cara de tamagotchi. Proyecto de Emprendimiento UTP.
 
-## Ahora
-
-Estoy buscando **prácticas profesionales** en desarrollo de software e IA aplicada.
-
 <sub>Mi gráfica de contribuciones muestra solo una parte de mi actividad: la mayoría ocurre en repositorios privados.</sub>
