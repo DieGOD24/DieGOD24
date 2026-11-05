@@ -9,7 +9,6 @@ Estudiante de **Ingeniería de Sistemas y Computación** en la Universidad Tecno
 - **IA aplicada**: agentes con OpenAI, memoria de conversación, revisión humana antes de actuar, visión por computador para documentos.
 - **Integraciones**: WhatsApp (Meta Cloud API, Twilio), Microsoft Graph, Google APIs, pasarelas de pago.
 - **Despliegue y calidad**: Docker, nginx, Coolify, GitHub Actions, Playwright, pruebas automáticas.
-- Trabajo con herramientas de IA para programar (Claude) y lo digo abiertamente: yo defino, reviso, pruebo y respondo por lo que entrego.
 
 ## Trabajo destacado
 
