@@ -14,16 +14,7 @@ Un servidor en Python gestiona las partidas y un cliente Next.js ofrece registro
 
 ## Arquitectura
 
-```mermaid
-flowchart LR
-    C1[Cliente web] --> WS[WebSocket]
-    C2[Cliente Android] --> WS
-    C1 --> R[API REST]
-    WS --> M[Motor del juego]
-    R --> M
-    M --> B[Bots]
-    M --> DB[(Base de datos)]
-```
+Los clientes web y Android se conectan por WebSocket y API REST a un motor de juego que corre en el servidor, el único que valida reglas y turnos. El motor usa bots y guarda el estado en una base de datos.
 
 ## Decisiones técnicas
 

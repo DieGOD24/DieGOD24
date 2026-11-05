@@ -16,19 +16,7 @@ Las solicitudes de repuestos y los reclamos de garantía los atendía un asesor 
 
 ## Arquitectura
 
-```mermaid
-flowchart LR
-    C[Cliente en WhatsApp] --> P[Proveedor de WhatsApp]
-    P --> A[API]
-    A --> O[Orquestador: máquina de estados]
-    O --> G[Agentes especializados]
-    G --> M[Modelos de lenguaje y visión]
-    O --> E[ERP de la empresa]
-    O --> R[CRM con cola de reintentos]
-    O --> H[Derivación a asesor]
-    A --> B[(Base de datos)]
-    A --> W[Panel de monitoreo en tiempo real]
-```
+El cliente escribe por WhatsApp a través de un proveedor; una API recibe el mensaje y lo pasa a un orquestador que funciona como máquina de estados y coordina agentes especializados que usan modelos de lenguaje y de visión. El orquestador consulta los sistemas de la empresa, registra el caso con reintentos y deriva a un asesor cuando corresponde. Un panel de monitoreo en tiempo real muestra lo que ocurre.
 
 ## Decisiones de diseño de IA
 

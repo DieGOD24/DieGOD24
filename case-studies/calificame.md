@@ -18,22 +18,7 @@ Calificar exámenes manuscritos consume horas de trabajo repetitivo del docente:
 
 ## Arquitectura
 
-```mermaid
-flowchart LR
-  D[Docente] --> F[Frontend web]
-  F --> A[API]
-  A --> Q[(Base de datos)]
-  A --> S[(Almacenamiento de archivos)]
-  A --> T[Tareas asíncronas por lote]
-  T --> V[Modelo de visión]
-  V --> T
-  T --> Q
-  Q --> R[Revisión del docente]
-  R --> L[Libro de notas y reportes]
-  E[Estudiante] --> F
-  F --> P[Apelaciones]
-  P --> R
-```
+Un frontend web habla con una API. Las calificaciones por lote corren como tareas asíncronas que llaman a un modelo de visión, y los resultados vuelven a la base de datos para que el docente los revise. Las apelaciones del estudiante entran al mismo circuito de revisión, y de ahí las notas pasan al libro de calificaciones y a los reportes.
 
 ## Decisiones de diseño de IA
 

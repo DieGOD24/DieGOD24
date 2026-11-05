@@ -18,25 +18,7 @@ La integración de despacho con una plataforma de logística está detrás de ba
 
 ## Arquitectura
 
-```mermaid
-flowchart LR
-  C[Canales de mensajería] --> W[Entrada de webhooks]
-  W --> B[Bandeja de mensajes]
-  B --> A[Agente de IA con herramientas]
-  A --> R[Enrutador de modelos con respaldo]
-  R --> P[Proveedores de IA]
-  A --> K[Conocimiento y catálogo]
-  A --> O[Pedidos y pagos]
-  A -->|traspaso| H[Asesor humano]
-  O --> L[Seguimiento logístico]
-  S[Tareas programadas] --> L
-  S --> M[Medición de costo de IA]
-  B --> D[(Base de datos por organización)]
-  O --> D
-  F[Frontend web] <--> API[API REST]
-  API --> D
-  API --> A
-```
+Los mensajes de cada canal entran por webhooks a una bandeja y de ahí a un agente con herramientas, que traspasa a una persona cuando el caso lo pide. Las llamadas de IA pasan por un enrutador de modelos con respaldo entre proveedores y cada una registra su costo. Los pedidos y su seguimiento se apoyan en tareas programadas, y todo vive en una base de datos por organización detrás de una API REST que consume el frontend.
 
 ## Decisiones de diseño de IA
 

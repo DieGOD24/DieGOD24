@@ -14,19 +14,7 @@ SIV-IA nació de un prototipo mínimo, con un único endpoint sin estado, y crec
 
 ## Arquitectura
 
-```mermaid
-flowchart LR
-    C[Canales de mensajería] --> W[Webhooks]
-    W --> O[Orquestador de agentes]
-    O <--> M[(Memoria de conversación)]
-    O --> T[Herramientas]
-    T --> CRM[CRM y catálogo]
-    T --> A[Agenda y traspaso a asesor]
-    CRM --> UI[Panel web]
-    A --> UI
-    UI --> O
-    O --> C
-```
+Los canales de mensajería llegan por webhooks a un orquestador de agentes con memoria de conversación. El agente usa herramientas para consultar el CRM y el catálogo, agendar y trasladar la conversación a un asesor, y el panel web permite al equipo comercial ver lo que ocurre y tomar el control.
 
 ## Decisiones de diseño de IA
 

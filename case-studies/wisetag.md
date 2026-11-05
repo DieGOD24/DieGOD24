@@ -12,15 +12,7 @@ Cada tag lleva una URL corta con un código único. Al escanearla se abre un per
 
 ## Arquitectura
 
-```mermaid
-flowchart LR
-    T[Tag QR / NFC] --> P[Perfil público]
-    P --> API[API REST]
-    D[Panel del dueño] --> API
-    API --> DB[(Base de datos)]
-    API --> S[(Archivos)]
-    API --> L[Registro de escaneos]
-```
+El tag lleva una URL corta que abre el perfil público. El panel del dueño y la página pública usan la misma API REST, que guarda los perfiles, los archivos y el registro de escaneos.
 
 ## Decisiones técnicas
 
