@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="180" viewBox="0 0 480 180" role="img" aria-label="WiseTAG: Tags QR y NFC con perfil de emergencia">
+<defs><linearGradient id="c" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#16243b"/></linearGradient></defs>
+<rect x="1" y="1" width="478" height="178" rx="16" fill="url(#c)" stroke="#f472b6" stroke-opacity=".45" stroke-width="1.5"/>
+<rect x="1" y="1" width="8" height="178" rx="4" fill="#f472b6"/>
+<circle cx="432" cy="48" r="26" fill="#f472b6" fill-opacity=".12"/>
+<circle cx="432" cy="48" r="9" fill="#f472b6"><animate attributeName="r" values="7;12;7" dur="3s" repeatCount="indefinite"/></circle>
+<text x="30" y="52" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="800" fill="#f8fafc">WiseTAG</text>
+<text x="30" y="88" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#cbd5e1">Tags QR y NFC con perfil de emergencia</text>
+<text x="30" y="112" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#f472b6" font-weight="600">LEER EL CASO DE ESTUDIO  →</text>
+<rect x="30" y="128" width="58" height="26" rx="13" fill="#f472b6" fill-opacity=".14" stroke="#f472b6" stroke-opacity=".6"/><text x="59" y="146" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#f472b6" font-weight="600">Django</text><rect x="96.4" y="128" width="51" height="26" rx="13" fill="#f472b6" fill-opacity=".14" stroke="#f472b6" stroke-opacity=".6"/><text x="122" y="146" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#f472b6" font-weight="600">React</text><rect x="155.4" y="128" width="73" height="26" rx="13" fill="#f472b6" fill-opacity=".14" stroke="#f472b6" stroke-opacity=".6"/><text x="192" y="146" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#f472b6" font-weight="600">QR / NFC</text></svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="180" viewBox="0 0 480 180" role="img" aria-label="MARKETIA: Ventas conversacionales con agentes de IA">
+<defs><linearGradient id="c" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#16243b"/></linearGradient></defs>
+<rect x="1" y="1" width="478" height="178" rx="16" fill="url(#c)" stroke="#2dd4bf" stroke-opacity=".45" stroke-width="1.5"/>
+<rect x="1" y="1" width="8" height="178" rx="4" fill="#2dd4bf"/>
+<circle cx="432" cy="48" r="26" fill="#2dd4bf" fill-opacity=".12"/>
+<circle cx="432" cy="48" r="9" fill="#2dd4bf"><animate attributeName="r" values="7;12;7" dur="3s" repeatCount="indefinite"/></circle>
+<text x="30" y="52" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="800" fill="#f8fafc">MARKETIA</text>
+<text x="30" y="88" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#cbd5e1">Ventas conversacionales con agentes de IA</text>
+<text x="30" y="112" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#2dd4bf" font-weight="600">LEER EL CASO DE ESTUDIO  →</text>
+<rect x="30" y="128" width="66" height="26" rx="13" fill="#2dd4bf" fill-opacity=".14" stroke="#2dd4bf" stroke-opacity=".6"/><text x="63" y="146" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#2dd4bf" font-weight="600">FastAPI</text><rect x="103.80000000000001" y="128" width="51" height="26" rx="13" fill="#2dd4bf" fill-opacity=".14" stroke="#2dd4bf" stroke-opacity=".6"/><text x="129" y="146" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#2dd4bf" font-weight="600">React</text><rect x="162.8" y="128" width="66" height="26" rx="13" fill="#2dd4bf" fill-opacity=".14" stroke="#2dd4bf" stroke-opacity=".6"/><text x="196" y="146" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#2dd4bf" font-weight="600">Agentes</text></svg>
